@@ -8,7 +8,7 @@
 
 ### Demo Tutorials
 
-- [Emoji Selector App](https://youtu.be/nqTcAzPS3oc?si=ht1HXpnLeILSAGSR)
+- [01 Emoji Selector App](https://youtu.be/nqTcAzPS3oc?si=ht1HXpnLeILSAGSR)
 
 ### XCode shortcuts
 
