@@ -13,3 +13,4 @@
 ### XCode shortcuts
 
 - iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
+- Emoji Menu: `CTRL + CMD + Space`
