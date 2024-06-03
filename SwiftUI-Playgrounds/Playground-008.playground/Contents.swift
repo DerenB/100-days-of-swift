@@ -44,3 +44,56 @@ do {
 } catch {
     print("There was an error")
 }
+
+
+
+// ---------- Checkpoint 4 ----------
+
+// Error Enum
+enum SquareError: Error {
+    case low, high, odd
+}
+
+// Square Root Function
+func squareRoot(num: Int) throws -> Int {
+    if num < 1 {
+        throw SquareError.low
+    }
+    
+    if num > 10000 {
+        throw SquareError.high
+    }
+    
+    var result = -1
+    
+    for number in 1...100 {
+        var testNumber = number * number
+        
+        if testNumber == num {
+            result = number
+            break
+        }
+    }
+    
+    if result == -1 {
+        throw SquareError.odd
+    }
+    
+    return result
+}
+
+// Test Function
+let testNumber = 0
+
+do {
+    let result = try squareRoot(num: testNumber)
+    print("Square Root: \(result)")
+} catch SquareError.low {
+    print("Test value too low, must be at least 1")
+} catch SquareError.high {
+    print("Test value too high, must be less than 10,000")
+} catch SquareError.odd {
+    print("Test value has no even square root")
+} catch {
+    print("There was an error")
+}
