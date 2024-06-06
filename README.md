@@ -20,13 +20,14 @@
 - Install Ruby through Homebrew
   - Overrides the Ruby that comes with Mac
   - [Installation and Path setup](https://mac.install.guide/ruby/13)
-- [Install CocoaPods](https://cocoapods.org/)
+- Install CocoaPods
+  - [Installation](https://cocoapods.org/)
 
 ### XCode shortcuts
 
 - iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
 - Emoji Menu: `CTRL + CMD + Space`
-- 
+
 ### Android Tutorials
 
 - [Roadmap: Android Developer](https://roadmap.sh/android)
