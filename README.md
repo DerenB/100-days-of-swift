@@ -12,7 +12,7 @@
 - [01 Emoji Selector App](https://youtu.be/nqTcAzPS3oc?si=ht1HXpnLeILSAGSR)
 - [02 Code with Chris](https://www.youtube.com/playlist?list=PLMRqhzcHGw1Y5Cluhf7pKRNZtKaA3Q4kg)
 
-### Setup CocoaPods
+# Setup CocoaPods
 
 - Install / Update Homebrew
   - [Homebrew Installation Guide](https://brew.sh/)
