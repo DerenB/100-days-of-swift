@@ -22,6 +22,7 @@
   - [Installation and Path setup](https://mac.install.guide/ruby/13)
 - Install CocoaPods
   - [Installation](https://cocoapods.org/)
+  - `pod --version` to confirm CocoaPods installed
 
 ### XCode shortcuts
 
