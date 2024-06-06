@@ -12,6 +12,21 @@
 - [01 Emoji Selector App](https://youtu.be/nqTcAzPS3oc?si=ht1HXpnLeILSAGSR)
 - [02 Code with Chris](https://www.youtube.com/playlist?list=PLMRqhzcHGw1Y5Cluhf7pKRNZtKaA3Q4kg)
 
+### Setup CocoaPods
+
+- Install / Update Homebrew
+  - [Homebrew Installation Guide](https://brew.sh/)
+  - [Updating/Upgrading Homebrew](https://osxdaily.com/2021/02/13/how-update-homebrew-mac/)
+- Install Ruby through Homebrew
+  - Overrides the Ruby that comes with Mac
+  - [Installation and Path setup](https://mac.install.guide/ruby/13)
+- [Install CocoaPods](https://cocoapods.org/)
+
+### XCode shortcuts
+
+- iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
+- Emoji Menu: `CTRL + CMD + Space`
+- 
 ### Android Tutorials
 
 - [Roadmap: Android Developer](https://roadmap.sh/android)
@@ -19,8 +34,3 @@
 - [Android Developers Google](https://developer.android.com/courses)
 - [Kotlin Lang Org](https://kotlinlang.org/)
 - [Hyperskill Kotlin](https://hyperskill.org/categories/4)
-
-### XCode shortcuts
-
-- iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
-- Emoji Menu: `CTRL + CMD + Space`
