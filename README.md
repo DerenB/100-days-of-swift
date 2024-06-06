@@ -26,6 +26,8 @@
 
 ### XCode shortcuts
 
+- [XCode online download](https://developer.apple.com/download/all/)
+  - Alternative to using App Store, requires Apple ID login
 - iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
 - Emoji Menu: `CTRL + CMD + Space`
 
