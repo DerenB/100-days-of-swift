@@ -76,7 +76,10 @@
 # UI Notes
 
 - Basics
-  -  
+  -  `Views` are the elements that users see on the screen
+  -  `Modifiers` are applied to the views to change their look and feek
+  -  `Container view` (`Layout Container`) organize and arrange the views
+     -  also considered as a view
 
 # Android
 
