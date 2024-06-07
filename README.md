@@ -67,12 +67,16 @@
   - Calls the View files, ex `ContentView()`
 - Asset Library 
 
-
 ### Project Example
 
 - DemoProject (.xcodeproj)
   - DemoProject
-    - DemoProject.swift (main)  
+    - DemoProject.swift (main)
+   
+# UI Notes
+
+- Basics
+  -  
 
 # Android
 
