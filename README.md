@@ -31,6 +31,46 @@
 - iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
 - Emoji Menu: `CTRL + CMD + Space`
 
+# XCode Layout Items
+
+### Sections
+
+- File Navigator
+  - All project files
+  - Navigation buttons
+- Editor Area
+- Utility / Inspector Area
+  -  Inspector for setting object values manually
+  -  Quick Help inspector for objects
+- Toolbar
+  - Run button
+  - Simulator selector
+  - "+" Button to get to the Library
+
+### Project Files
+
+- Root File (name of project) .xcodeproj file extension
+  - Has project settings / build settings
+  - iOS version
+  - Horizontal / Vertical settings
+- Main File
+  - .swift file extension
+  - Named after project file
+  - Has the Main start point for the project, entry point of the App
+  - `@main`
+  - `struct projectName: App`
+  - Calls the View files, ex `ContentView()`
+- Asset Library 
+
+
+### Project Example
+
+- DemoProject (.xcodeproj)
+  - DemoProject
+    - DemoProject.swift (main)  
+
+# Android
+
 ### Android Tutorials
 
 - [Roadmap: Android Developer](https://roadmap.sh/android)
