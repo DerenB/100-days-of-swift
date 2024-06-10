@@ -11,6 +11,12 @@ final class RMCharacterViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // View background color
+        view.backgroundColor = .systemBackground
+        
+        // Title
+        title = "Characters"
 
         // Do any additional setup after loading the view.
     }

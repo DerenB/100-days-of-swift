@@ -11,6 +11,12 @@ final class RMSettingsViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // View background color
+        view.backgroundColor = .systemBackground
+        
+        // Title
+        title = "Settings"
 
         // Do any additional setup after loading the view.
     }
