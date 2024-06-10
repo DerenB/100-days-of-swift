@@ -25,6 +25,17 @@
   - [Installation](https://cocoapods.org/)
   - `pod --version` to confirm CocoaPods installed
 
+# Setup iPhone
+
+- Turn on Developer Mode on the iPhone:
+  - Settings > Privacy & Security > Developer Mode
+  - Requires a restart whenever turned on or off
+- Add developer account to trusted accounts on iPhone:
+  - Settings > General > VPN & Device Management
+  - Select the trusted accounts under Developer App  
+
+# XCode Layout Items
+
 ### XCode shortcuts
 
 - [XCode online download](https://developer.apple.com/download/all/)
@@ -36,8 +47,6 @@
   - Top Bar > Window > Developer Documentation
   - Also found in the Inspector panel
   - Hold down OPTION key while hovering over for panel
-
-# XCode Layout Items
 
 ### Sections
 
