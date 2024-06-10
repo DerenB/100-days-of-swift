@@ -35,7 +35,11 @@ struct ContentView: View {
                 
                 // Button
                 Spacer()
-                Image("button")
+                Button {
+                    deal()
+                } label: {
+                    Image("button")
+                }
                 
                 // Player/Score
                 Spacer()
@@ -64,65 +68,13 @@ struct ContentView: View {
             }
         }
     }
+    
+    func deal() {
+        print("Deal da cards")
+    }
 }
 
 #Preview {
     ContentView()
 }
 
-
-/*
- 
- // Main View
- ZStack {
-     // Background cloth table
-     Image("background-cloth")
-     
-     // Vertical Items
-     VStack {
-         // War Logo
-         Spacer()
-         Image("logo")
-         
-         // Card Items
-         HStack {
-             Spacer()
-             Image("card2")
-             Spacer()
-             Image("card3")
-             Spacer()
-         }
-         
-         // Deal Button
-         Spacer()
-         Image("button")
-         
-         // Players
-         Spacer()
-         HStack {
-             Spacer()
-             Text("Player")
-             Spacer()
-             Text("CPU")
-             Spacer()
-         }
-         .foregroundColor(.white)
-         .font(.title)
-         
-         // Scores
-         HStack {
-             Spacer()
-             Text("0")
-             Spacer()
-             Text("0")
-             Spacer()
-         }
-         .foregroundColor(.white)
-         .font(.title)
-         
-         Spacer()
-     }
- }
-
- 
- */
