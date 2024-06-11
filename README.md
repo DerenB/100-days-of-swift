@@ -84,6 +84,15 @@
   - DemoProject
     - DemoProject.swift (main)
    
+# XCode Deploying
+
+- Set settings in General
+  - Minimum iOS Version deployment
+  - Display Name
+  - App Icon
+- Archive the app
+  - Top Bar > Product > Archive 
+   
 # UI Notes
 
 - Basics
