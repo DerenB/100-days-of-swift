@@ -1,4 +1,4 @@
-### Prompt: "How do I deploy my iOS App to the Apple store?"
+## Prompt: "How do I deploy my iOS App to the Apple store?"
 
 Deploying your iOS App to the Apple store involves several steps:
 
@@ -18,7 +18,7 @@ Remember to check the official Apple documentation for the most accurate and det
 
 <hr>
 
-### Prompt: How do I send the archive of my iOS App to the testers?
+## Prompt: How do I send the archive of my iOS App to the testers?
 
 You can distribute your iOS app to testers using TestFlight, which is a tool provided by Apple. Here are the steps:
 
