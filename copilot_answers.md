@@ -1,6 +1,4 @@
-Prompt: `"How do I deploy my iOS App to the Apple store?"`
-
-Response:
+#### Prompt: "How do I deploy my iOS App to the Apple store?"
 
 Deploying your iOS App to the Apple store involves several steps:
 
@@ -17,5 +15,23 @@ Deploying your iOS App to the Apple store involves several steps:
 6) Submit for Review: Submit your app for review in App Store Connect. Once it's reviewed and approved, it will be available in the Apple App Store.
 
 Remember to check the official Apple documentation for the most accurate and detailed steps.
+
+<hr>
+
+#### Prompt: How do I send the archive of my iOS App to the testers?
+
+You can distribute your iOS app to testers using TestFlight, which is a tool provided by Apple. Here are the steps:
+
+1) Archive your App: In Xcode, select "Product" > "Archive" to produce an archive of your app.
+
+2) Upload your App to App Store Connect: In the Organizer window, select your iOS app archive and click "Distribute App". Choose "App Store Connect" as the distribution destination and follow the prompts to upload your app.
+
+3) Set Up TestFlight: In App Store Connect, go to "My Apps" and select your app. Then, go to the "TestFlight" tab.
+
+4) Add Testers: In the TestFlight tab, you can add individual testers by their email addresses, or you can create a public link to share with multiple testers.
+
+5) Start Testing: Testers will receive an email with a link to test your app. They will need to download the TestFlight app from the App Store, where they can install and test your app.
+
+Remember to check the official Apple TestFlight documentation for more detailed steps and guidelines.
 
 <hr>
