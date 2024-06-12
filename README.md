@@ -43,6 +43,7 @@
   - Alternative to using App Store, requires Apple ID login
 - iPhone Preview, toggle dark/light modes: `CMD + SHIFT + A`
 - Emoji Menu: `CTRL + CMD + Space`
+- Create Documentation Comment Line: `Option + CMD + /`
 - Documentation
   - Documentation built into XCode
   - Top Bar > Window > Developer Documentation
