@@ -4,7 +4,7 @@ Response:
 
 Deploying your iOS App to the Apple store involves several steps:
 
-1)Code Signing: Ensure your app is properly signed with an Apple developer account. You need to create a distribution certificate and a provisioning profile.
+1) Code Signing: Ensure your app is properly signed with an Apple developer account. You need to create a distribution certificate and a provisioning profile.
 
 2) Archive and Validate your App: Use Xcode to create an archive of your app. Then validate your app using the "Validate App" option in Xcode.
 
@@ -18,3 +18,4 @@ Deploying your iOS App to the Apple store involves several steps:
 
 Remember to check the official Apple documentation for the most accurate and detailed steps.
 
+<hr>
