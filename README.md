@@ -102,6 +102,12 @@
   -  `Container view` (`Layout Container`) organize and arrange the views
      -  also considered as a view
 
+# Storyboard Notes
+
+- Hold `CTRL` and drag Storyboard item into View.swift file
+- DOT icon on line number column indicates storyboard item
+- Can also click storyboard item and look at inspector for where it connects to .swift file
+
 # Android
 
 ### Android Tutorials
