@@ -35,3 +35,16 @@ You can distribute your iOS app to testers using TestFlight, which is a tool pro
 Remember to check the official Apple TestFlight documentation for more detailed steps and guidelines.
 
 <hr>
+
+## Prompt: Should I use TestFlight or AdHoc methods to test my iOS App?
+
+The choice between using TestFlight or AdHoc methods to test your iOS app depends on your specific needs. Here are some considerations:
+
+- TestFlight: TestFlight is Apple's official mechanism for testing both internal and external builds. It allows up to 10,000 external testers without the need for device UDIDs. It also provides additional features like in-app feedback and crash report generation. However, it requires that the app be uploaded to App Store Connect and go through a beta review process.
+
+- AdHoc: AdHoc distribution allows you to distribute your app to a limited number of registered devices (up to 100 per year) without going through the App Store. This can be faster than TestFlight as it does not require a review, but it requires manual management of device UDIDs and does not provide as many testing features.
+
+Consider factors like the size of your testing group, the need for test analytics, and the speed of distribution when deciding which method to use.
+
+
+<hr>
