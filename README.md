@@ -86,7 +86,7 @@
   - DemoProject
     - DemoProject.swift (main)
    
-# XCode Deploying
+# XCode Deploying Apps
 
 - Set settings in General
   - Minimum iOS Version deployment
