@@ -11,18 +11,18 @@ import SwiftUI
 struct ListView: View {
     
     // Array for List items
-    @State var items: [String] = [
-        "This is the first item",
-        "This is the second",
-        "This is the last item"
+    @State var items: [ItemModel] = [
+        ItemModel(title: "This is the 1st title", isComplete: false),
+        ItemModel(title: "This is the 2nd title", isComplete: true),
+        ItemModel(title: "This is the 3rd title", isComplete: false)
     ]
     
     var body: some View {
         // List of ToDo Items
         List {
             // Loops through the array to display list items
-            ForEach(items, id: \.self) { item in
-                ListRowView(title: item)
+            ForEach(items) { item in
+                ListRowView(item: item)
             }
         }
         .listStyle(PlainListStyle())

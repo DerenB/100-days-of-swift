@@ -8,21 +8,27 @@
 
 import SwiftUI
 
+var item1 = ItemModel(title: "Cheese", isComplete: false)
+
 struct ListRowView: View {
     
-    let title: String
+    let item: ItemModel
     
     var body: some View {
         HStack {
-            Image(systemName: "checkmark.circle")
-            Text(title)
+            Image(systemName: item.isComplete ? "checkmark.circle" : "circle")
+                .foregroundColor(item.isComplete ? .green : .red)
+            Text(item.title)
             Spacer()
         }
+        .font(.title2)
+        .padding(.vertical, 8)
+        
     }
 }
 
 #Preview {
     NavigationView {
-        ListView()
-    }
+        ListRowView(item: item1)
+    }.previewLayout(.sizeThatFits)
 }
