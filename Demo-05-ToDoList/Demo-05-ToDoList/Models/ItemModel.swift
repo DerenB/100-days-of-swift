@@ -4,6 +4,7 @@
 //
 //  Created by Deren Bozer on 6/14/24.
 //
+//  Model for creating a List item
 
 import Foundation
 
@@ -14,6 +15,7 @@ struct ItemModel: Identifiable {
     let title: String
     let isComplete: Bool
     
+    // Initializer
     init(id: String = UUID().uuidString, title: String, isComplete: Bool) {
         self.id = id
         self.title = title

@@ -4,6 +4,7 @@
 //
 //  Created by Deren Bozer on 6/14/24.
 //
+//  ViewModel for using CRUD actions on the data list
 
 import Foundation
 
