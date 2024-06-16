@@ -14,21 +14,27 @@ struct ListView: View {
     @EnvironmentObject var listViewModel: ListViewModel
     
     var body: some View {
-        // List of ToDo Items
-        List {
-            // Loops through the array to display list items
-            ForEach(listViewModel.items) { item in
-                ListRowView(item: item)
-                    .onTapGesture {
-                        withAnimation(.linear) {
-                            listViewModel.updateItem(item: item)
-                        }
+        ZStack {
+            if listViewModel.items.isEmpty {
+                Text("No Items")
+            } else {
+                // List of ToDo Items
+                List {
+                    // Loops through the array to display list items
+                    ForEach(listViewModel.items) { item in
+                        ListRowView(item: item)
+                            .onTapGesture {
+                                withAnimation(.linear) {
+                                    listViewModel.updateItem(item: item)
+                                }
+                            }
                     }
+                    .onDelete(perform: listViewModel.deleteItem)
+                    .onMove(perform: listViewModel.moveItem)
+                }
+                .listStyle(PlainListStyle())
             }
-            .onDelete(perform: listViewModel.deleteItem)
-            .onMove(perform: listViewModel.moveItem)
-        }
-        .listStyle(PlainListStyle())
+        } // End of Z Stack
         .navigationTitle("Todo List 📝")
         .navigationBarItems(
             leading: EditButton(),

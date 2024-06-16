@@ -13,6 +13,7 @@
 		151DF0E92C1BEAD200E38138 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0E82C1BEAD200E38138 /* ListView.swift */; };
 		151DF0EE2C1BECD600E38138 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0ED2C1BECD600E38138 /* ListRowView.swift */; };
 		151DF0F02C1BEE7000E38138 /* AddViiew.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151DF0EF2C1BEE7000E38138 /* AddViiew.swift */; };
+		154152412C1E68C8001A0BC4 /* NoItemsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154152402C1E68C8001A0BC4 /* NoItemsView.swift */; };
 		154EDE492C1D207C00B00C5F /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 154EDE482C1D207C00B00C5F /* ListViewModel.swift */; };
 		155A479E2C1D162000340161 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 155A479D2C1D162000340161 /* ItemModel.swift */; };
 /* End PBXBuildFile section */
@@ -25,6 +26,7 @@
 		151DF0E82C1BEAD200E38138 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		151DF0ED2C1BECD600E38138 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
 		151DF0EF2C1BEE7000E38138 /* AddViiew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddViiew.swift; sourceTree = "<group>"; };
+		154152402C1E68C8001A0BC4 /* NoItemsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemsView.swift; sourceTree = "<group>"; };
 		154EDE482C1D207C00B00C5F /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
 		155A479D2C1D162000340161 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -83,6 +85,7 @@
 			children = (
 				151DF0E82C1BEAD200E38138 /* ListView.swift */,
 				151DF0EF2C1BEE7000E38138 /* AddViiew.swift */,
+				154152402C1E68C8001A0BC4 /* NoItemsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -186,6 +189,7 @@
 				154EDE492C1D207C00B00C5F /* ListViewModel.swift in Sources */,
 				151DF0E92C1BEAD200E38138 /* ListView.swift in Sources */,
 				151DF0F02C1BEE7000E38138 /* AddViiew.swift in Sources */,
+				154152412C1E68C8001A0BC4 /* NoItemsView.swift in Sources */,
 				151DF0EE2C1BECD600E38138 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
