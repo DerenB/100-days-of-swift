@@ -33,7 +33,7 @@ struct ContentView: View {
                 Image("logo")
                 
                 #if DEBUG
-                    Text("Dev")
+                    Text("Dev Mode")
                         .foregroundColor(.white)
                 #else
                     Text("Release")
