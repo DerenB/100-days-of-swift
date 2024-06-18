@@ -32,6 +32,13 @@ struct ContentView: View {
                 Spacer()
                 Image("logo")
                 
+                #if DEBUG
+                    Text("Dev")
+                        .foregroundColor(.white)
+                #else
+                    Text("Release")
+                #endif
+            
                 // Cards
                 Spacer()
                 HStack {
