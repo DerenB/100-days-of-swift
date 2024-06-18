@@ -90,12 +90,23 @@
    
 # XCode Deploying Apps
 
+### Schemes
+
+- Setup scheme settings
+  - Top bar > Product > Scheme > Edit Scheme
+  - Can set Build/Run/Archive to Debug/Release/Etc
+- Make sure you have the right scheme selected before archiving   
+
+### Archive
+
 - Set settings in General
   - Minimum iOS Version deployment
   - Display Name
   - App Icon
 - Archive the app
-  - Top Bar > Product > Archive 
+  - Top Bar > Product > Archive
+ 
+# Apple Store Connect
    
 # UI Notes
 
