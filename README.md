@@ -107,6 +107,27 @@
   - Top Bar > Product > Archive
  
 # Apple Store Connect
+
+- Add users by email
+  - Top Bar > Users and Access
+  - Click "+" icon to add users
+  - Users must be added in order to be added to a test flight
+  - User has to accept email invitation
+-  Add User to TestFlight
+  - Open App: Top Bar > Apps > Select App > TestFlight > Side Bar > Testers > Internal Testing
+  - Create a Group and add that group to the testing
+  - Select the Group and add users to the group
+- Users installing with TestFlight
+  - Users accept invitation to test app
+  - Users install TestFlight app on iPhone (on App store, developed by Apple)
+  - Within TestFlight App, Users see a list of all Apps invited to test
+  - Can install from the list 
+
+### TestFlight Notes
+
+- Archiving an update to App Store Connect, automatically sends the update to all TestFlight testers
+  - Users have to restart App to download and see new update
+- Previous Builds and Previous Versions all available to install
    
 # UI Notes
 
