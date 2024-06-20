@@ -9,5 +9,7 @@ import Foundation
 
 /// Object that represents a single API call
 final class RMRequest {
-    
+    // Baes URL
+    // Endpoint
+    // Path Components
 }
