@@ -7,7 +7,7 @@
 - [Apple Developer](https://developer.apple.com/)
 - [Apple Learn](https://developer.apple.com/learn/)
 - [iOS Icons Pack Download](https://developer.apple.com/sf-symbols/)
--
+- [Free Stanford University Course](https://cs193p.sites.stanford.edu/2023)
 
 ### Demo Tutorials
 
