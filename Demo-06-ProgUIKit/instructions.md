@@ -31,3 +31,11 @@ func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options conn
 # Set up View Page
 
 - See file: `FirstScreen.swift`
+
+# Add Second Screen
+
+- New File > Cocoa Touch Class
+- Reconfigure the `SceneDelegate.swift` file
+- Have to change the rootViewController
+- New: `window?.rootViewController = UINavigationController(rootViewController: FirstScreen())`
+- This adds navigation
