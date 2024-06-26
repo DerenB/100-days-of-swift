@@ -1,12 +1,10 @@
 # 100-days-of-swift
 
-### Going through the 100 Days of Swift course
+### Courses and Tutorials
 
-- [Hacking Swift: 100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 - [Roadmap: iOS Developer](https://roadmap.sh/ios)
-- [Apple Developer](https://developer.apple.com/)
-- [Apple Learn](https://developer.apple.com/learn/)
-- [iOS Icons Pack Download](https://developer.apple.com/sf-symbols/)
+- [Sean Allen UIKit](https://seanallen.teachable.com/courses/enrolled/681906)
+- [Hacking Swift: 100 Days of SwiftUI](https://www.hackingwithswift.com/100/swiftui)
 - [Free Stanford University Course](https://cs193p.sites.stanford.edu/2023)
 
 ### Demo Tutorials
@@ -17,6 +15,12 @@
 - [04 Storyboard Quick Demo](https://youtu.be/oZGAicT2zbg?si=z65NFC9qt4MjcTPL)
 - [05 ToDo App](https://www.youtube.com/playlist?list=PLwvDm4VfkdpheGqemblOIA7v3oq0MS30i)
 - [06 Intro to Programmatic UI](https://youtu.be/_U6_l58Cv4E?si=qJabWFLW9GNkSeeX)
+
+### Resources
+
+- [iOS Icons Pack Download](https://developer.apple.com/sf-symbols/)
+- [Apple Developer](https://developer.apple.com/)
+- [Apple Learn](https://developer.apple.com/learn/)
 
 # Setup CocoaPods
 
