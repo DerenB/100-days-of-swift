@@ -18,6 +18,7 @@
 
 ### Resources
 
+- [App Icon Generator](https://www.appicon.co/)
 - [iOS Icons Pack Download](https://developer.apple.com/sf-symbols/)
 - [Apple Developer](https://developer.apple.com/)
 - [Apple Learn](https://developer.apple.com/learn/)
