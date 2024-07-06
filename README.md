@@ -22,6 +22,7 @@
 - [iOS Icons Pack Download](https://developer.apple.com/sf-symbols/)
 - [Apple Developer](https://developer.apple.com/)
 - [Apple Learn](https://developer.apple.com/learn/)
+- [Semantic UI Examples](https://github.com/cocoacontrols/SemanticUI)
 
 # Setup CocoaPods
 
